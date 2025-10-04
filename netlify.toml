@@ -6,7 +6,7 @@
   publish = "out"
   
   # Default build command
-  command = "pnpm build && pnpm export"
+  command = "pnpm build"
 
 [build.environment]
   # Node.js version
