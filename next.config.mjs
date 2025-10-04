@@ -9,6 +9,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  // Enable static export for Netlify
+  output: 'export',
+  trailingSlash: true,
 }
 
 export default nextConfig
